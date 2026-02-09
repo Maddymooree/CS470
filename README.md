@@ -11,6 +11,8 @@ The goal of this project is to compare advanced priority queue data structures (
 - `src/dijkstra.*` – Heap-agnostic Dijkstra implementation
 - `src/prim.*` – Heap-agnostic Prim implementation
 - `src/binheap_pq.*` – Binary heap baseline implementation
+- `paring_pq.*` – Pairing heap implementation
+
 
 ## Modularity
 All graph algorithms are implemented against an abstract priority queue interface, allowing different heap implementations to be swapped without modifying algorithm logic.
